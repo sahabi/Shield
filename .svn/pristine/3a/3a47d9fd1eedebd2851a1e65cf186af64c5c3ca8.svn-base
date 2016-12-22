@@ -1,0 +1,49 @@
+#/*******************************************************************************
+# UGS2. 
+#
+# If the UGS at locx monitors a possible nearby target, the UAV should 
+# confirm the information and visit loc5, loc6, loc7, or loc8 within 10 time steps.
+#
+# The input variable u2 denotes if a target was sighted.
+# Locations are encoded with the output variables l4, l3, l2 and l1. 
+# 	                 	
+#***************************************************************************/
+
+dfa 8 1 4 1 1 28
+1                   #initial state
+8                   #final state
+1 1 1 -5 4 
+1 1 -1
+1 2 1 5
+1 2 1 -4
+2 1 -5 4
+2 3 5
+2 3 -4
+3 1 -5 4
+3 4 -4
+3 4 5 4 -2
+3 8 5 4 2
+4 1 -5 4
+4 5 -4
+4 8 5 4 
+5 1 -5 4
+5 6 -5 -4
+5 6 5 -4 3 -2
+5 8 5 -4 -3
+5 8 5 -4 3 2
+5 8 5 4 
+6 1 -5 4
+6 7 -5 -4 -3
+6 7 -5 -4 3 -2
+6 8 -5 -4 3 2
+6 8 5
+7 1 -5 4
+7 8 5
+7 8 -4
+8 8
+1 u2 
+2 l1
+3 l2
+4 l3
+5 l4
+

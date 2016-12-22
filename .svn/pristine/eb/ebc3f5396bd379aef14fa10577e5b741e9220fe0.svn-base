@@ -1,0 +1,34 @@
+#/*******************************************************************************
+# Restricted operation zones in UAV mission planning 
+#
+# The UAV has to leave a ROZ within 2 time steps.
+# In this example, loc11 and loc12 are in a ROZ.
+# Locations are encoded with the output variables l5, l4, l3, l2 and l1.
+# 	                 	
+#***************************************************************************/
+
+dfa 4 0 5 1 1 16
+1                   #initial state
+4                   #final state
+1 1 5
+1 1 -4
+1 1 3
+1 1 -2
+1 2 -5 4 -3 2 
+2 1 5
+2 1 -4
+2 1 3
+2 1 -2
+2 3 -5 4 -3 2  
+3 1 5
+3 1 -4
+3 1 3
+3 1 -2
+3 4 -5 4 -3 2  
+4 4 
+1 l1
+2 l2
+3 l3
+4 l4
+5 l5
+

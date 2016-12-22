@@ -1,0 +1,37 @@
+
+
+Veriwell version 2.8.7, 
+Copyright (C) 1993-2008 Elliot Mednick and Mark Hummel
+
+Veriwell comes with ABSOLUTELY NO WARRANTY; This is free
+software, and you are welcome to redistribute it under the
+terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version. 
+
+lxt  support compiled in
+lxt2 support compiled in
+
+Entering Phase I...
+Compiling source file : ./simulation/ex1_for_sim.v
+
+Entering Phase II...
+Entering Phase III...
+No errors in compilation
+Top-level modules:
+   main
+
+Time =                    1, System Input: r=0 System Output: a1=0 a2=0 b1=0 b2=0 Shield Output a1=0 a2=0 b1=0 b2=0
+Time =                   11, System Input: r=0 System Output: a1=1 a2=0 b1=0 b2=1 Shield Output a1=1 a2=0 b1=0 b2=1
+System Error. Shield has to deviate.
+Time =                   21, System Input: r=1 System Output: a1=1 a2=0 b1=1 b2=0 Shield Output a1=1 a2=0 b1=0 b2=0
+Time =                   31, System Input: r=0 System Output: a1=1 a2=1 b1=1 b2=0 Shield Output a1=1 a2=1 b1=1 b2=0
+Time =                   41, System Input: r=1 System Output: a1=0 a2=0 b1=1 b2=0 Shield Output a1=0 a2=0 b1=1 b2=0
+System Error. Shield has to deviate.
+Time =                   51, System Input: r=1 System Output: a1=0 a2=0 b1=0 b2=0 Shield Output a1=0 a2=0 b1=0 b2=1
+Time =                   61, System Input: r=0 System Output: a1=1 a2=1 b1=1 b2=1 Shield Output a1=1 a2=1 b1=1 b2=1
+Exiting Veriwell at time 62
+0 Errors, 0 Warnings, Compile time = 0.0, Load time = 0.0, Simulation time = 0.0
+
+Normal exit
+Thank you for using Veriwell

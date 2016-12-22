@@ -1,0 +1,210 @@
+Instructions:
+
+A) Synthesizing a shield:
+Execute:
+  python ./shield.py ./inputfiles/uav/map_16_states/map.dfa
+B) Size after optimization with ABC:
+  ./optimize_verilog_with_abc.sh ./output/map.v
+
+========================
+    map_8_states/
+========================
+
+map.dfa
+---------------------
+Nr of states: 9
+Nr of inputs: 0
+Nr of outputs: 3 
+l: 3
+Synthesis time: 0.52 sec
+
+map.dfa
+adversary.dfa
+---------------------
+Nr of states: 12
+Nr of inputs: 0
+Nr of outputs: 3 
+l: 3
+Synthesis time: 1.2 sec
+
+map.dfa
+ugs1.dfa
+---------------------
+Nr of states: 46
+Nr of inputs: 1
+Nr of outputs: 3 
+l: 4
+Synthesis time: 6.2 sec
+
+map.dfa
+ugs2.dfa
+---------------------
+Nr of states: 32
+Nr of inputs: 1
+Nr of outputs: 3 
+l: 3
+Synthesis time: 7 sec
+
+map.dfa
+adversary.dfa
+ugs1.dfa
+---------------------
+Nr of states: 55
+Nr of inputs: 1
+Nr of outputs: 3 
+l: 4
+Synthesis time: 17 sec
+
+map.dfa
+adversary.dfa
+ugs2.dfa
+---------------------
+Nr of states: 36
+Nr of inputs: 1
+Nr of outputs: 3 
+l: 3
+Synthesis time: 12 sec
+
+========================
+    map_16_states/
+========================
+
+map.dfa
+---------------------
+Nr of states: 16
+Nr of inputs: 0
+Nr of outputs: 4 
+l: 5
+Synthesis time: 12 sec
+
+map.dfa
+communication.dfa
+---------------------
+Nr of states: 16
+Nr of inputs: 0
+Nr of outputs: 4 
+l: 5
+Synthesis time: 14 sec
+
+map.dfa
+communication.dfa
+roz.dfa
+---------------------
+Nr of states: 19
+Nr of inputs: 0
+Nr of outputs: 4 
+l: 5
+Synthesis time: 19 sec
+
+map.dfa
+communication.dfa
+roz.dfa
+adversary.dfa
+---------------------
+Nr of states: 23
+Nr of inputs: 0
+Nr of outputs: 4 
+l: 5
+Synthesis time: 28 sec
+
+map.dfa
+ugs1.dfa
+---------------------
+Nr of states: 84
+Nr of inputs: 1
+Nr of outputs: 4 
+l: 6
+Synthesis time: 173 sec
+
+map.dfa
+ugs1.dfa
+communication.dfa
+---------------------
+Nr of states: 84
+Nr of inputs: 1
+Nr of outputs: 4 
+l: 6
+Synthesis time: 205 sec
+
+map.dfa
+ugs1.dfa
+communication.dfa
+roz.dfa
+---------------------
+Nr of states: 100
+Nr of inputs: 1
+Nr of outputs: 4 
+l: 6
+Synthesis time: 307 sec
+
+map.dfa
+ugs2.dfa
+---------------------
+Nr of states: 64
+Nr of inputs: 1
+Nr of outputs: 4 
+l: 6
+Synthesis time: 169 sec
+
+map.dfa
+ugs2.dfa
+communication.dfa
+---------------------
+Nr of states: 64
+Nr of inputs: 1
+Nr of outputs: 4 
+l: 6
+Synthesis time: 195 sec
+
+map.dfa
+home.dfa
+---------------------
+Nr of states: 64
+Nr of inputs: 1
+Nr of outputs: 4 
+l: 7
+Synthesis time: 690 sec
+
+
+========================
+    map_32_states/
+========================
+
+map.dfa
+---------------------
+Nr of states: 32
+Nr of inputs: 0
+Nr of outputs: 5 
+l: 6
+Synthesis time: 122 sec
+
+map.dfa
+communication.dfa
+---------------------
+Nr of states: 32
+Nr of inputs: 0
+Nr of outputs: 5 
+l: 6
+Synthesis time: 143 sec
+
+map.dfa
+communication.dfa
+roz.dfa
+---------------------
+Nr of states: 34
+Nr of inputs: 0
+Nr of outputs: 5 
+l: 6
+Synthesis time: 183 sec
+
+map.dfa
+communication.dfa
+roz.dfa
+adversary.dfa
+---------------------
+Nr of states: 38
+Nr of inputs: 0
+Nr of outputs: 5 
+l: 6
+Synthesis time: 238 sec
+
